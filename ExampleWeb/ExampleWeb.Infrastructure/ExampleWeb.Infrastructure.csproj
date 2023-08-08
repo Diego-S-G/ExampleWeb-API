@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleWeb.Domain\ExampleWeb.Domain.csproj" />
+    <ProjectReference Include="..\ExampleWeb.Migrations\ExampleWeb.Migrations.csproj" />
   </ItemGroup>
 
 </Project>
