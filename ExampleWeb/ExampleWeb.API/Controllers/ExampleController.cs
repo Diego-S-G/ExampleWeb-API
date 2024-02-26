@@ -45,7 +45,7 @@ namespace ExampleWeb.API.Controllers
         {
             var entity = await _exampleService.CreateAsync(example);
 
-            if (example == null)
+            if (entity == null)
             {
                 return BadRequest();
             }
